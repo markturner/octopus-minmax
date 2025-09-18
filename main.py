@@ -260,8 +260,8 @@ def compare_and_switch():
 
     savings = curr_cost - cheapest_cost
 
-    # 2p buffer because cba
-    if savings > 2:
+    # changed 2p buffer to 20p
+    if savings > 20:
         switch_message = f"{summary}\nInitiating Switch to {cheapest_tariff.display_name}"
         send_notification(switch_message)
 
