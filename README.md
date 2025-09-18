@@ -1,5 +1,7 @@
 # Octopus Minmax Bot 🐙🤖
 
+This fork changes the 2p buffer to a 20p buffer, so switches will occur less frequently, and not when savings are insignificant (or cancelled out by usage after 11pm anyway).
+
 ## Description
 This bot will use your electricity usage and compare your current Smart tariff costs for the day with another smart tariff and initiate a switch if it's cheaper. See below for supported tariffs.
 
