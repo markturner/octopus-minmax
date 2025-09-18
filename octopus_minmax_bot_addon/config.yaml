@@ -1,6 +1,6 @@
 ---
 name: Octopus MinMax Bot
-image: markturner/octopus-minmax-bot
+image: markjamesturner/octopus-minmax-bot
 url: https://github.com/markturner/octopus-minmax
 version: v0.8.2
 slug: octopus_minmax_bot
